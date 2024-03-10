@@ -16,7 +16,10 @@ si on n'a pas le Prenom et le Nom, on va au moins récuperer le nom par une autr
 on récupère la liste avec tous les noms de médecins ( après Docteur ou Dr), puis on recherche tous les noms en majucule
 si le nom en majucule n'est pas dans la liste des médecins, on le prend
 
-
+# Précisions
+"For each document we have a json representation that gives us absolute coordinates for each word"
+je considère donc qu'on a deja la fonction give_json(pdf_path), qui donne le json à partir du chemin du pdf
+pour l'exemple sur le site je prend dans chaque cas le json que vous avez donné sur le github.
 
 # Problèmes :
 
