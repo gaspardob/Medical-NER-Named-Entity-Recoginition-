@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soumettre un document PDF</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            width: 50%; 
+            text-align: center;
+        }
+        form {
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: rgb(237, 124, 4); 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1> STRUCTURATION DE RAPPORTS MÉDICAUX </h1>
+        <h2> Etude de cas Lifen </h2>
+        <form method="post" enctype="multipart/form-data">
+            <label for="pdf_file">Sélectionnez un rapport médical:</label><br>
+            <input type="file" id="pdf_file" name="pdf_file" accept=".pdf"><br><br>
+            <button type="submit">Soumettre</button>
+        </form>
+        
+        {% if prenom and nom %}
+        <h3>Résultat :</h3>
+        <p>Prénom : {{ prenom }}</p>
+        <p>Nom : {{ nom }}</p>
+        {% endif %}
+    </div>
+</body>
+</html>
