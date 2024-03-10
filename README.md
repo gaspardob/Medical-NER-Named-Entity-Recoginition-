@@ -31,5 +31,6 @@ De même, l'heuristique ne gère pas bien le cas ou il y a plusieurs Monsieur ou
 je considère donc qu'on a deja la fonction give_json(pdf_path), qui donne le json à partir du chemin du pdf
 
 # Tests avec linter et formatter sur github
+actions github à chaque pull request
 
 
