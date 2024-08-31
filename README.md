@@ -1,4 +1,4 @@
-# ETUDE DE CAS LIFEN
+# Extraction de données médicales (NER et Heuristique)
 
 json
 flask
