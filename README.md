@@ -7,6 +7,9 @@ flask run
 running on http://127.0.0.1:5000
 
 Je fais deux approches différentes pour extraire des informations médicales venat d'un rapport : un NER et une heuristique classique que j'ai utilisé sur un site web.
+J'ai implémenté le NER dans NER_BERT_final.ipynb, avec un dataset fictif car les données médicales sonr protégées.
+
+
 # Heuristique :
 
 si on trouve "Monsieur", "Mr", "Madame" ou "Mme": on prend le mot suivant si le mot suivant est une majusctule, sinon les deux mots suivants
